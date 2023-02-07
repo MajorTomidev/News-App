@@ -7,7 +7,5 @@ urlpatterns = [
     path ('<int:pk>/edit/', EditNewsPage.as_view(), name='edit'),
     path ('create/', CreateNewPage.as_view(), name='create'),
     path('', HomePage.as_view(), name='home'),
-    
-    
-    
+       
 ]
