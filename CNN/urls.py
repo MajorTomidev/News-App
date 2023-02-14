@@ -22,7 +22,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path ('api/', include('API.urls')),
     path('app/', include ('app.urls')),
+    path('users/', include ('users.urls')),
     path('', include ('blog.urls')),
+    
                       
 ]
 
